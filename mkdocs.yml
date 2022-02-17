@@ -1,0 +1,3 @@
+site_name: FastGraph - Fast GraphQL API Documentation
+theme:
+  name: material
