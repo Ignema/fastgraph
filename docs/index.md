@@ -12,15 +12,12 @@ First thing that we need to do is clone the repository like so:
 
 To run this project you'll need Python installed on your system. Make sure it's version 3.10 or above.
 
-    // We'll need poetry to grab dependencies
-    pip install poetry
-
     // Install dependencies
     cd fastgraph
-    poetry install
+    pipenv install
 
     // Initialze SQLite database with Prisma
-    poetry shell
+    pipenv shell
     prisma db push
 
     // Run the server

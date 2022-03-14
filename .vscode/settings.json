@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dev",
+            "group": "fastgraph",
+            "database": "${workspaceFolder:fastapi-graphql}/prisma/dev.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "python.formatting.provider": "black"
+}
